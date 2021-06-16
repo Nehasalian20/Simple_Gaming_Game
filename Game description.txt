@@ -1,0 +1,6 @@
+﻿This a  Simple  Quiz game I  have created using Python Language.
+
+
+At  first  it  displays  “WELCOME  TO  GAME”.
+Then  it  asks  the  user  that  they  are  ready  to  play .
+If  the  user  enters  “yes” . Then  It  displays  5  questions, the  users have  to  answer  it. Based  on  the  correct  answers  it  calculates the  marks  out  of  100  and  displays  scores  with correct  answers.

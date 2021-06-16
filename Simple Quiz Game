@@ -1,0 +1,53 @@
+
+print('HELLO, WELCOME TO GAME')
+
+ans=input('Are you ready to play(yes/no)')
+score = 0
+total_q = 5
+if ans.lower() == 'yes':
+    ans = input('1. What is best programming language?')
+    if ans.lower() == 'python':
+        score += 1
+        print("CORRECT")
+    else:
+        print("INCORRECT")
+
+    ans = input('2. Which gas is known as Laughing Gas?')
+    if ans.lower() == 'nitrous oxide':
+        score += 1
+        print("CORRECT")
+    else:
+        print("INCORRECT")
+
+    ans = input('3.Which year Python was invented')
+    if ans == '1991':
+        score += 1
+        print("CORRECT")
+    else:
+        print("INCORRECT")
+
+    ans = input('4.What is 3+7+14+20+65-73?')
+    if ans == '36':
+        score += 1
+        print("CORRECT")
+    else:
+        print("INCORRECT")
+
+    ans = input('5.Which is the capital of India ?')
+    if ans.lower() == 'delhi':
+        score += 1
+        print("CORRECT")
+    else:
+        print("INCORRECT")
+
+
+print('THANK YOU FOR PLAYING,You got ', score, "questions correct.")
+mark = (score/total_q)*100
+
+print("Mark: ", mark)
+print("HAVE A NICE DAY")
+
+
+
+
+
